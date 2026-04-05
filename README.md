@@ -1,2 +1,5 @@
 "# Calculatrice PHP" 
 "Calculatrice simple avec addition, soustraction, multiplication, division" 
+"## M‚thodes disponibles" 
+"- power(a, b) : retourne a puissance b" 
+"- squareRoot(a) : retourne la racine carr‚e de a" 
