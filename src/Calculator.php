@@ -26,4 +26,16 @@ class Calculator
         }
         return $a / $b;
     }
+
+    public function power($a, $b) 
+    { 
+        return pow($a, $b); 
+    }
+
+    public function squareRoot($a) { 
+        if ($a < 0) { 
+            throw new ("Racine carrée d\'un négatif impossible"); 
+        } 
+        return sqrt($a); 
+    }
 }
