@@ -26,4 +26,9 @@ class Calculator
         }
         return $a / $b;
     }
+
+    public function power($a, $b) 
+    { 
+        return pow($a, $b); 
+    }
 }
